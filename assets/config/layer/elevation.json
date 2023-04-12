@@ -1,0 +1,8 @@
+{
+  "url": "https://wxs.ign.fr/altimetrie/geoportail/r/wms",
+  "name": "ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES",
+  "format": "image/x-bil;bits=32",
+  "layer_name": "wms_elevation_test",
+  "colorTextureElevationMinZ": 149,
+  "colorTextureElevationMaxZ": 622
+}
