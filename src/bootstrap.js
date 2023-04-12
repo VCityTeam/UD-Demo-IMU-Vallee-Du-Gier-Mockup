@@ -8,8 +8,8 @@ udvizBrowser.FileUtil.loadMultipleJSON([
   '../assets/config/layer/3DTiles.json',
   '../assets/config/layer/base_maps.json',
   '../assets/config/layer/elevation.json',
-  '../assets/config/widget/about.json',
   '../assets/config/widget/help.json',
+  '../assets/config/layer/geoJSONs.json'
 ]).then((configs) => {
   // http://proj4js.org/
   // define a projection as a string and reference it that way
@@ -54,9 +54,10 @@ udvizBrowser.FileUtil.loadMultipleJSON([
     extent
   );
 
-  // //// ABOUT MODULE
-  const about = new udvizBrowser.Widget.AboutWindow(configs['about']);
-  app.addWidgetView('about', about);
+  udvizBrowser.addGeoJsonLayers(
+    configs['geoJSONs'],
+    frame3DPlanar.itownsView
+  );
 
   // //// HELP MODULE
   new udvizBrowser.Widget.HelpWindow(configs['help']); // => help window should be add with addWidgetView

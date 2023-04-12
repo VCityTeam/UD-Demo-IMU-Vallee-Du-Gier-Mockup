@@ -9,7 +9,7 @@
     }
   },
   {
-    "maxSubdivisionLevel": 15,
+    "maxSubdivisionLevel": 20,
     "range": 10000000,
     "heading": 1,
     "tilt": 89,

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "SerForge",
+    "url": "./BAT_SETFORGE.geojson; subtype=geojson&SRSNAME=EPSG:3946",
+    "crs": "EPSG:3946",
+    "style": {
+      "fill": {
+        "color": "blue",
+        "opacity": 0.5
+      },
+      "stroke": {
+        "color": "black"
+      }
+    }
+  }
+]
