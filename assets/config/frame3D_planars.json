@@ -1,5 +1,6 @@
 [
   {
+    "maxSubdivisionLevel": 15,
     "range": 3000,
     "heading": -49.6,
     "tilt": 17,

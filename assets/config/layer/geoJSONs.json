@@ -1,7 +1,7 @@
 [
   {
     "id": "SerForge",
-    "url": "./BAT_SETFORGE.geojson; subtype=geojson&SRSNAME=EPSG:3946",
+    "url": "https://raw.githubusercontent.com/VCityTeam/UD-Demo-IMU-Vallee-Du-Gier-Mockup/master/assets/config/layer/BAT_SETFORGE.geojson",
     "crs": "EPSG:3946",
     "style": {
       "fill": {
