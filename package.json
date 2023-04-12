@@ -13,13 +13,13 @@
   },
   "author": "",
   "license": "ISC",
+  "workspaces": [
+    "./UD-Viz/packages/*"
+  ],
   "dependencies": {
     "@egjs/hammerjs": "^2.0.17",
     "keycharm": "^0.4.0",
     "timsort": "^0.3.0",
-    "@ud-viz/browser": "^3.0.0",
-    "@ud-viz/node": "^3.0.0",
-    "@ud-viz/shared": "^3.0.0",
     "uuid": "^8.3.2",
     "vis-util": "^5.0.2"
   },

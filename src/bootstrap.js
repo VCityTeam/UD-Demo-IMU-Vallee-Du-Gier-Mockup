@@ -82,4 +82,7 @@ udvizBrowser.FileUtil.loadMultipleJSON([
   );
   app.addWidgetView('layerChoice', layerChoice);
 
+  const legonizer = new udvizBrowser.Widget.LegonizerWindow(app.getFrame3DPlanar());
+  app.addWidgetView('legonizer', legonizer);
+
 });
