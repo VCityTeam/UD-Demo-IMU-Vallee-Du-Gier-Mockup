@@ -2,6 +2,14 @@
 Demo [UD-Viz](https://github.com/VCityTeam/UD-Viz#readme) pour le développement d'une maquette Lego sur le territoire Rive de Gier pour le festival [popSciences](https://popsciences.universite-lyon.fr/) du 13/14 mai 2023.
 [IMU](https://imu.universite-lyon.fr/) aura un stand lors de ce festival pour mettre en avant le [projet Rive de Gier](https://github.com/VCityTeam/UD-Demo-TIGA-Vallee-Du-Gier). L'intéret est d'ajouter une maquette Lego et d'améliorer leur dispositif de médiation numérique déjà mis en place avec un outil tangible pour aider à la compréhention de ce territoire. Mais aussi d'avoir un nouveau terrain d'expérimentation sur la représentation tangible d'un territoire et d'avoir un retour utilisateur sur cet outil. La maquette Lego sera composé d'une représentation d'une zone industrielle de Rive de Gier, de la table ainsi que son vidéo projecteur pour projeter de la donnée sur la maquette blanche. Le dispositif sera accompagné d'un support de questionnement sur cet outil pour apporter un retour utilisateur sur celui-ci.
 
+## UD-Viz in submodule
+```
+git submodule add https://github.com/VCityTeam/UD-Viz.git 
+cd UD-Viz
+git checkout legonizer
+```
+
+This demo is currently on the legonizer branch in UD-Viz.
 ## Install npm
 For the npm installation refer [here](https://github.com/VCityTeam/UD-SV/blob/master/Tools/ToolNpm.md)
 
